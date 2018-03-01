@@ -7,10 +7,10 @@ image_path = sys.argv[1]
 image_data = tf.gfile.FastGFile(image_path, 'rb').read()
 # Loads labels
 label_lines = [line.rstrip() for line
-                   in tf.gfile.GFile("./labels.txt")]
+                   in tf.gfile.GFile("./labelsAllDogs.txt")]
 
 # Unpersists graph from file
-with tf.gfile.FastGFile("./output.pb", 'rb') as f:
+with tf.gfile.FastGFile("./outputAllDogs.pb", 'rb') as f:
     graph_def = tf.GraphDef()
     graph_def.ParseFromString(f.read())
     _ = tf.import_graph_def(graph_def, name='')
