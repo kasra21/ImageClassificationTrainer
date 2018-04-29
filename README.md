@@ -14,7 +14,7 @@ This project is here to generate a graph (only the final layer of the graph) for
 
 To retrain you may run:
 
-	python retrain.py -- model_dir ./inception -- image_dir <path_to_the_images> -- output_graph ./output.pb --output_labels ./labels.txt --how_many_training_steps <number_of_training>
+	python retrain.py --model_dir ./inception --image_dir <path_to_the_images> --output_graph ./output.pb --output_labels ./labels.txt --how_many_training_steps <number_of_training>
 
 the higher the `<number_of_training>` is the better chance and accuracy we may get.
 To text the result and classifying an image, you may run the following:
