@@ -6,7 +6,7 @@ This project is here to generate a graph (only the final layer of the graph) for
 
 * **Clone The project**: 
 
-	 git clone https://kasra21@bitbucket.org/kasra21/imageclassificationtrainer.git
+	 git clone https://github.com/kasra21/polymer-drag-and-drop.git
 
 * **Details**:
 
